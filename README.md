@@ -8,7 +8,7 @@ We introduce WildSAT, which pairs satellite images with millions of geo-tagged w
 WildSAT employs a contrastive learning approach that jointly leverages satellite images, species occurrence maps, and textual habitat descriptions to train or fine-tune models.
 This approach significantly improves performance on diverse satellite image recognition tasks, outperforming both ImageNet-pretrained models and satellite-specific baselines.
 Additionally, by aligning visual and textual information, WildSAT enables zero-shot retrieval, allowing users to search geographic locations based on textual descriptions.
-WildSAT surpasses recent cross-modal learning methods, including approaches that align satellite images with ground imagery or wildlife photos, demonstrating the advantages of our approach. Finally, we analyze the impact of key design choices and highlight the broad applicability of WildSAT to remote sensing and biodiversity monitoring.
+WildSAT surpasses recent cross-modal learning methods, including approaches that align satellite images with ground imagery or wildlife photos, demonstrating the advantages of our approach.
 
 ## Setup the environment
 1. Create a conda environment: `conda create -n wildsat python=3.9`
@@ -20,7 +20,7 @@ This shows how to extract features from satellite images and use them for retrie
 1. Activate your environment and download the required package for GritLM: `pip install gritlm`
 2. Download our sample model [here](https://drive.google.com/file/d/1IxBpf3nbEMzny4YJWS6stMBxel6gMiYE/view?usp=drive_link). This is an ImageNet pre-trained ViT-B/16 model that is further fine-tuned with WildSAT.
 3. Download a small set of data [here](https://drive.google.com/file/d/18YL59DAPLj0WnLkX9fh_n0bDjMYutdLq/view?usp=drive_link)
-4. Run the notebook `quickstart.ipynb`
+4. Run the notebook [`quickstart.ipynb`](https://github.com/cvl-umass/wildsat/blob/main/quickstart.ipynb)
   - Make sure to specify the location of the sample data downloaded in the previous step, and the location of the checkpoint in step 2 
 
 
@@ -30,7 +30,7 @@ This shows how to extract features from satellite images and use them for retrie
 3. Download the bioclimatic variables [here](https://drive.google.com/file/d/15sCOevQVueDiXbtrymTg9eUwPwk1JNKp/view?usp=drive_link). Place it in `data/bioclim*.npy`. This is used by SINR to extract location features.
 4. Download the mapping between satellite images, location, and text [here](https://drive.google.com/file/d/1jprjItXj3AflJc74dRhT15BCBW4wzLkE/view?usp=sharing). Place it in `data/dataloader_data.npy`
 
-A sample code is provided for visualizing the dataset in `data_explore.ipynb`
+A sample code is provided for visualizing the dataset in [`data_explore.ipynb`](https://github.com/cvl-umass/wildsat/blob/main/data_explore.ipynb)
 
 
 ## Training the model
