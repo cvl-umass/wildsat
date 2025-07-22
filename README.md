@@ -60,7 +60,7 @@ A sample code is provided for visualizing the dataset in [`data_explore.ipynb`](
 ## Citation
 If you found this helpful, please cite our paper:
 ```
-@inproceedings{daroya2024wildsat,
+@inproceedings{daroya2025wildsat,
   title={WildSAT: Learning Satellite Image Representations from Wildlife Observations},
   author={Daroya, Rangel and Cole, Elijah and Mac Aodha, Oisin and Van Horn, Grant and Maji, Subhransu},
   booktitle={IEEE/CVF International Conference on Computer Vision},
