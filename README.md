@@ -1,6 +1,13 @@
+<div align="center">
+  
 # WildSAT: Learning Satellite Image Representations from Wildlife Observations
+  
+[![arXiv preprint](https://img.shields.io/badge/arXiv-2412.14428-red)](https://arxiv.org/abs/2412.14428)
+
 This is the official repository for the paper "WildSAT: Learning Satellite Image Representations from Wildlife Observations".
 ![overview](assets/overview.jpg)
+
+</div>
 
 ## Overview
 Species distributions encode valuable ecological and environmental information, yet their potential for guiding representation learning in remote sensing remains underexplored.
