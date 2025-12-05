@@ -3,6 +3,7 @@
 # WildSAT: Learning Satellite Image Representations from Wildlife Observations
   
 [![arXiv preprint](https://img.shields.io/badge/arXiv-2412.14428-red)](https://arxiv.org/abs/2412.14428)
+[![ICCV paper](https://img.shields.io/badge/ICCV-2025-blue)](https://openaccess.thecvf.com/content/ICCV2025/html/Daroya_WildSAT_Learning_Satellite_Image_Representations_from_Wildlife_Observations_ICCV_2025_paper.html)
 
 This is the official repository for the paper "WildSAT: Learning Satellite Image Representations from Wildlife Observations".
 ![overview](assets/overview.jpg)
